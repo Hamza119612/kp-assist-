@@ -194,82 +194,24 @@ Provides:
 
 ---
 
-## Core MVP Features (Fr)
-
-### 1️⃣ Générateur de documentation clinique (KP-conforme)
-- Transformation des notes cliniques brutes en **documentation médicale allemande standardisée**
-- Production structurée et conforme aux attentes de la Kenntnisprüfung :
-  - Anamnèse
-  - Examen clinique (Status)
-  - Diagnostic de travail
-  - Diagnostics différentiels
-  - Plan diagnostique
-  - Plan thérapeutique
-  - Disposition / évolution
-- Respect strict du **langage médical allemand (Klinikdeutsch)** et du **Konjunktiv I**
-
+### ✅ Feature 7 — Protocol-to-Training Engine (Core MVP)
+- Allows users to upload KP experience reports / protocols (e.g. Baden-Baden, Karlsruhe)
+- Extracts examiner focus patterns such as:
+  - Imaging intensity
+  - Anatomy emphasis
+  - Internal Medicine vs Surgery balance
+  - Rapid-fire questioning style
+- Dynamically adapts:
+  - Case emphasis
+  - Examiner-style questions
+  - Rubric strictness
+- Enables location-specific KP preparation without using or reproducing past exams
 ---
 
-### 2️⃣ Détecteur d’éléments manquants et de signaux d’alarme
-- Vérification automatique des éléments obligatoires selon le motif de consultation
-- Détection des oublis fréquents pénalisants à l’examen KP :
-  - Diagnostics différentiels absents
-  - Plan diagnostique incomplet
-  - Absence d’exclusion des diagnostics graves
-- Système basé sur des règles médicales déterministes pour garantir fiabilité et sécurité
-
+### ✅ Feature 8 — PDF Export
+- Export generated cases to printable PDF
+- Designed for memorization and offline revision
 ---
-
-### 3️⃣ Générateur de présentation orale (style Kenntnisprüfung)
-- Génération de présentations orales structurées et adaptées aux exigences des examinateurs
-- Formats temporisés :
-  - 90 secondes
-  - 2 minutes
-  - 4 minutes
-- Style attendu en KP :
-  - Clair
-  - Concis
-  - Logique
-  - Sans formulations non natives
-
----
-
-### 4️⃣ Générateur de questions d’examinateur (KP)
-- Création automatique de **questions typiques de la Kenntnisprüfung** à partir du cas :
-  - Diagnostics différentiels
-  - Raisonnement clinique
-  - Examens complémentaires
-  - Conduite à tenir
-- Entraînement ciblé à l’argumentation médicale orale en allemand
-
----
-
-### 5️⃣ Système d’évaluation selon grille KP (Rubric Scoring)
-- Évaluation structurée du cas selon des critères proches de ceux des examinateurs :
-  - Structure du cas
-  - Qualité du langage médical allemand
-  - Pertinence des diagnostics différentiels
-  - Cohérence du raisonnement clinique
-  - Sécurité du patient
-  - Qualité de la présentation orale
-- Retour détaillé avec scores et axes d’amélioration concrets
-
----
-
-### 6️⃣ Historique des cas et suivi de progression
-- Sauvegarde des cas travaillés
-- Suivi de la progression par compétence :
-  - Raisonnement clinique
-  - Structure du cas
-  - Langage médical
-- Identification des points faibles récurrents pour optimiser la préparation à la KP
-
----
-
-### 7️⃣ Export PDF
-- Export des cas générés en **PDF imprimable**
-- Support adapté à la mémorisation et à la révision hors ligne
-
 
 ## 8. Technical Stack
 
